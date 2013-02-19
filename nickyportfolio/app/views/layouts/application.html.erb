@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nickyportfolio</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav>
+    <%= image_tag '/assets/sky.JPG' %>
+
+
+<div class='nav-stripe'><h1>N I C K Y</h1><h1>   H U G H E S </h1><h1 class='shadow'>N I C K Y</h1><h1 class='shadow2'>   H U G H E S </h1></div>
+
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
